@@ -1,0 +1,24 @@
+set $room 1
+bindsym $mod+Shift+1 set $$room 1
+bindsym $mod+Shift+2 set $$room 2
+bindsym $mod+Shift+3 set $$room 3
+
+# Switch to workspace
+bindsym $mod+q workspace q$$room
+bindsym $mod+w workspace w$$room
+bindsym $mod+e workspace e$$room
+bindsym $mod+a workspace a$$room
+bindsym $mod+s workspace s$$room
+bindsym $mod+d workspace d$$room
+bindsym $mod+z workspace z$$room
+bindsym $mod+x workspace x$$room
+
+# Move focused container to workspace
+bindsym $mod+Shift+q move container to workspace q$$room
+bindsym $mod+Shift+w move container to workspace w$$room
+bindsym $mod+Shift+e move container to workspace e$$room
+bindsym $mod+Shift+a move container to workspace a$$room
+bindsym $mod+Shift+s move container to workspace s$$room
+bindsym $mod+Shift+d move container to workspace d$$room
+bindsym $mod+Shift+z move container to workspace z$$room
+bindsym $mod+Shift+x move container to workspace x$$room
