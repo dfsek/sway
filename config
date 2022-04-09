@@ -21,10 +21,10 @@ include $config_dir/bar
 
 bindsym Print exec grimshot copy area
 bindsym $mod+Return exec $term
-bindsym $mod+Tab exec $menu
+bindsym $mod+d exec $menu
 
 # Kill focused window
-bindsym $mod+k kill
+bindsym $mod+Shift+q kill
 
 floating_modifier $mod normal
 
@@ -56,9 +56,9 @@ bindsym $mod+b splith
 bindsym $mod+v splitv
 
 # Switch the current container between different layout styles
-bindsym $mod+1 layout tabbed
-bindsym $mod+2 layout toggle split
-bindsym $mod+3 layout stacking
+bindsym $mod+w layout tabbed
+bindsym $mod+e layout toggle split
+bindsym $mod+s layout stacking
 
 # Make the current focus fullscreen
 bindsym $mod+f fullscreen
@@ -70,7 +70,7 @@ bindsym $mod+Shift+space floating toggle
 bindsym $mod+space focus mode_toggle
 
 # Move focus to the parent container
-bindsym $mod+u focus parent
+bindsym $mod+x focus parent
 
 
 
