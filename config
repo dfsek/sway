@@ -4,6 +4,9 @@
 #
 # Read `man 5 sway` for a complete reference.
 
+exec eval $(gnome-keyring-daemon --start)
+exec export SSH_AUTH_SOCK
+
 include @sysconfdir@/sway/config.d/*
 
 set $config_dir /home/dfsek/.config/sway
